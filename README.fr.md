@@ -9,8 +9,8 @@
 **Langues** : [English](README.md) | [Français](README.fr.md)
 
 <!-- Latest release -->
-[release-badge]: https://img.shields.io/github/v/release/ppaglier/voltalis-homeassistant?label=release&sort=semver&logo=github
-[release-link]: https://github.com/ppaglier/voltalis-homeassistant/releases/latest
+[release-badge]: https://img.shields.io/github/v/release/rippergun/voltalis-homeassistant?label=release&sort=semver&logo=github
+[release-link]: https://github.com/rippergun/voltalis-homeassistant/releases/latest
 <!-- Integration quality -->
 [integration-quality-badge]: https://img.shields.io/badge/quality-silver-c0c0c0
 [integration-quality-link]: https://developers.home-assistant.io/docs/core/integration-quality-scale/#-silver
@@ -18,14 +18,14 @@
 [integration-active-instalations-badge]: https://img.shields.io/badge/dynamic/json?url=https://analytics.home-assistant.io/custom_integrations.json&query=%24.voltalis.total&color=brightgreen&label=active%20instalations&logo=homeassistant
 [integration-active-instalations-link]: https://analytics.home-assistant.io/custom_integrations.json
 <!-- Integration all downloads -->
-[integration-all-downloads-badge]: https://img.shields.io/github/downloads/ppaglier/voltalis-homeassistant/total?&color=blue&logo=github
-[integration-all-downloads-link]: https://github.com/ppaglier/voltalis-homeassistant/releases
+[integration-all-downloads-badge]: https://img.shields.io/github/downloads/rippergun/voltalis-homeassistant/total?&color=blue&logo=github
+[integration-all-downloads-link]: https://github.com/rippergun/voltalis-homeassistant/releases
 <!-- Integration latest downloads -->
-[integration-latest-downloads-badge]: https://img.shields.io/github/downloads/ppaglier/voltalis-homeassistant/latest/total?&color=blue&logo=homeassistantcommunitystore
-[integration-latest-downloads-link]: https://github.com/ppaglier/voltalis-homeassistant/releases/latest
+[integration-latest-downloads-badge]: https://img.shields.io/github/downloads/rippergun/voltalis-homeassistant/latest/total?&color=blue&logo=homeassistantcommunitystore
+[integration-latest-downloads-link]: https://github.com/rippergun/voltalis-homeassistant/releases/latest
 <!-- HACS button -->
 [hacs-badge]: https://my.home-assistant.io/badges/hacs_repository.svg
-[hacs-link]: https://my.home-assistant.io/redirect/hacs_repository/?owner=ppaglier&repository=voltalis-homeassistant&category=integration
+[hacs-link]: https://my.home-assistant.io/redirect/hacs_repository/?owner=rippergun&repository=voltalis-homeassistant&category=integration
 
 
 
@@ -82,7 +82,7 @@ Avant d'installer cette intégration, vous avez besoin de :
   1. Assurez-vous que [HACS](https://hacs.xyz/) est installé dans votre instance Home Assistant
   2. Dans Home Assistant, allez à **HACS** > **Intégrations**
   3. Cliquez sur le menu **⋮** dans le coin supérieur droit et sélectionnez **Dépôts personnalisés**
-  4. Ajoutez cette URL de dépôt : `https://github.com/ppaglier/voltalis-homeassistant`
+  4. Ajoutez cette URL de dépôt : `https://github.com/rippergun/voltalis-homeassistant`
   5. Définissez la catégorie sur **Intégration**
   6. Cliquez sur **Ajouter**
   7. Recherchez « Voltalis » dans HACS et cliquez sur **Télécharger**
@@ -94,7 +94,7 @@ Avant d'installer cette intégration, vous avez besoin de :
 <details>
   <summary>Cliquez pour afficher les instructions d'installation manuelle</summary>
 
-  1. Téléchargez la dernière version depuis la [page des versions](https://github.com/ppaglier/voltalis-homeassistant/releases)
+  1. Téléchargez la dernière version depuis la [page des versions](https://github.com/rippergun/voltalis-homeassistant/releases)
   2. Extrayez le dossier `custom_components/voltalis` de l'archive
   3. Copiez le dossier `voltalis` dans votre répertoire Home Assistant `custom_components` :
     - Si le répertoire `custom_components` n'existe pas, créez-le dans votre répertoire de configuration Home Assistant (où se trouve `configuration.yaml`)
